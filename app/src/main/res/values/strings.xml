@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Diploma</string>
+        <string name="name">Имя:</string>
+        <string name="phone">Номер телефона:</string>
+        <string name="password">Пароль</string>
+        <string name="label">ChatterBox</string>
+        <string name="profile">Профиль</string>
+        <string name="authorization">Авторизация</string>
+        <string name="conversation">Беседа</string>
+        <string name="contacts">Контакты</string>
+        <string name="settings">Настройки</string>
+        <string name="about_program">О Программе</string>
+        <string name="exit">Выход</string>
+        <string name="delete_account">Удалить аккаунт</string>
+        <string name="all_accounts">Все аккаунты</string>
+        <string name="my_contacts">Мои контакты</string>
+        <string name="about_text"> Приложение-мессенджер под названием Chatterbox позволит Вам легко общаться с Вашими друзьями.Оно написано на языке java в среде разработки Android студио.
+        Основные источники информации, благодаря которым появилось данное приложение :\n
+        http://developer.alexanderklimov.ru/\n
+        https://metanit.com\n
+        http://startandroid.ru/\n
+        http://javarush.ru\n
+        https://ru.stackoverflow.com\n
+        http://devcolibri.com/\n</string>
+        <string name="set_textsize">Установите цвет </string>
+        <string name="set_color">Установите размер </string>
+        <string name="set_style">Установите стиль </string>
+        <string name="contact_name">Имя контакта</string>
+        <string name="contact_phone">Номер телефона</string>
+        <string name="contact_photo">Фото контакта</string>
+        <string name="contact1">Контакт1 </string>
+        <string name="contact2">Контакт2 </string>
+        <string name="contact3">Контакт3</string>
+        <string name="contact4">Контакт4</string>
+        <string name="add_contact">Добавить контакт</string>
+        <string name="messages">Сообщения</string>
+        <string name="registration">Регистрация</string>
+        <string name="send">Отправить</string>
+        <string name="enter_message">Введите сообщение</string>
+        <string name="choose_size">Выберете размер</string>
+        <string name="choose_color">Выберете цвет</string>
+        <string name="save">Сохранить</string>
+        <string name="enter_name">Введите имя</string>
+        <string name="exit_profile">Выйти из профиля</string>
+        <string name="choose_background">Выберете фон</string>
+        <string name="add_photo">Добавить фото</string>
+        <string name="authentification">Аутентификация</string>
+    <string name="info">Информация</string>
+    <string name="login">Логин:</string>
+    <string name="surname">Фамилия:</string>
+    <string name="enter_login">Введите логин:</string>
+    <string name="enter_surname">Введите фамилию:</string>
+    <string name="enter_phone">Введите номер телефона:</string>
+    <string name="enter_code">Введите код подтверждения:</string>
+    <string name="get_code">Получить код</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="change_data">Изменить данные</string>
+    <string name="enter_confirm">Заполните следующие поля\nи нажмите на кнопку\n"Подтвердить"</string>
+    <string name="send_code">Отправить\nкод</string>
+    <string name="menu">Меню</string>
+</resources>

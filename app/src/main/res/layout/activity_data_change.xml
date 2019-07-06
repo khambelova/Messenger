@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/loginField"
+        android:layout_width="99dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/loginText"
+        android:layout_toStartOf="@+id/photo"
+        android:layout_toLeftOf="@id/photo"
+        android:gravity="center_vertical"
+        android:text="@string/login"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/nameField"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/loginField"
+        android:layout_alignTop="@+id/nameText"
+        android:gravity="center_vertical"
+        android:text="@string/name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/surnameField"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/loginField"
+        android:layout_alignLeft="@id/loginField"
+        android:layout_marginBottom="147dp"
+        android:gravity="center_vertical"
+        android:text="@string/surname"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="205dp"
+        android:layout_toEndOf="@+id/nameField"
+        android:layout_toRightOf="@id/nameField"
+        android:ems="10"
+        android:hint="@string/enter_login"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="253dp"
+        android:layout_toEndOf="@+id/loginField"
+        android:ems="10"
+        android:hint="@string/enter_name"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_toRightOf="@+id/loginField" />
+
+    <EditText
+        android:id="@+id/surnameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/surnameField"
+        android:layout_toEndOf="@+id/loginField"
+        android:ems="10"
+        android:hint="@string/surname"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_toRightOf="@+id/loginField" />
+
+<Button
+    android:id="@+id/change"
+    android:layout_width="173dp"
+    android:layout_height="59dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="21dp"
+    android:text="@string/confirm"
+    android:textSize="18sp"
+    android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/photo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/airat" />
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/descText"
+        android:layout_width="302dp"
+        android:layout_height="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="@string/enter_confirm"
+        android:textSize="20sp" />
+
+
+
+    <TextView
+        android:id="@+id/loginField"
+        android:layout_width="100dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/descText"
+        android:layout_alignLeft="@id/descText"
+        android:layout_marginTop="218dp"
+        android:gravity="center_vertical"
+        android:text="@string/login"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/nameField"
+        android:layout_width="100dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/descText"
+        android:layout_alignLeft="@id/descText"
+        android:layout_marginBottom="223dp"
+        android:gravity="center_vertical"
+        android:text="@string/name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/surnameField"
+        android:layout_width="100dp"
+        android:layout_height="46dp"
+        android:layout_alignLeft="@+id/descText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/descText"
+        android:layout_marginBottom="109dp"
+        android:gravity="center_vertical"
+        android:text="@string/surname"
+        android:textSize="18sp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textLog"
+        style="@style/TextInputLayoutStyle"
+        android:layout_toRightOf="@id/loginField"
+        android:layout_toEndOf="@id/loginField"
+        android:layout_alignBottom="@+id/loginField">
+
+        <EditText
+            android:id="@+id/loginText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_login"
+            android:inputType="textPersonName"
+            android:text="" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textName"
+        style="@style/TextInputLayoutStyle"
+        android:layout_alignBottom="@+id/nameField"
+        android:layout_toEndOf="@+id/nameField"
+        android:layout_toRightOf="@+id/nameField">
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textSur"
+        style="@style/TextInputLayoutStyle"
+        android:layout_alignBottom="@+id/surnameField"
+        android:layout_toEndOf="@+id/surnameField"
+        android:layout_toRightOf="@+id/surnameField">
+
+    <EditText
+        android:id="@+id/surnameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/surname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/registration"
+        android:layout_width="173dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="@string/confirm"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

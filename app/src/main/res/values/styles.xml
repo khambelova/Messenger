@@ -1,0 +1,67 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryDark">#00796B</item>
+        <item name="colorAccent">#039BE5</item>
+        <item name="colorButtonNormal">#00897B</item>
+    </style>
+
+    <style name="AddContactTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryDark">#00796B</item>
+        <item name="colorAccent">#039BE5</item>
+        <item name="colorButtonNormal">#FFFFFF</item>
+
+    </style>
+
+
+    <style name="ButtonStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="TextInputLayoutStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="SpinnerStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="MyContactsStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="ContactsTextViewStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ImageViewStyle">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">100dp</item>
+    </style>
+</resources>
